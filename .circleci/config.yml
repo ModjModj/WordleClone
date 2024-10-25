@@ -1,10 +1,9 @@
 version: 2.1
 jobs:
     build:
-    executor: my-executor
-    steps:
-      - checkout
-      - run: echo "build"
+        executor: my-executor
+        steps:
+          - checkout
 
   deploy:
     machine:
