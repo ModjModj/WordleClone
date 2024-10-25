@@ -37,6 +37,8 @@ workflows:
     jobs:
       - aws-code-deploy/deploy:
           application-name: myApplication
+          auth:
+            - aws-cli/setup
           bundle-bucket: myApplicationS3Bucket
           bundle-key: myS3BucketKey
           deployment-group: myDeploymentGroup
