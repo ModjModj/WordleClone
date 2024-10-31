@@ -4,6 +4,7 @@
   "private": true,
   "packageManager": "yarn@3.2.4",
   "scripts": {
+    "build": "yarn build"
     "netlify:deploy": "netlify deploy --auth $NETLIFY_AUTH_TOKEN"
   },
   "eslintConfig": {
