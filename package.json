@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "yarn@3.2.4",
   "scripts": {
-    "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
+    "netlify:deploy": "netlify deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
