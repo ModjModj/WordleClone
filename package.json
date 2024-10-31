@@ -2,7 +2,7 @@
   "name": "wordle",
   "version": "0.1.0",
   "private": true,
-   "packageManager": "yarn@3.2.4"
+  "packageManager": "yarn@3.2.4",
   "scripts": {
     "netlify:deploy": "netlify deploy --dir=./build -p -m \"$(git log -1 --pretty=%B)\""
   },
